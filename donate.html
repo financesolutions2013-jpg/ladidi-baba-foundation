@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate | Ladidi Baba Foundation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="donate-hero">
+    <div class="hero-overlay">
+        <h1>Support Our Mission</h1>
+        <p>Your donation empowers women and uplifts youth across communities.</p>
+    </div>
+</section>
+
+<section class="donation-details">
+    <h2>Bank Transfer Details</h2>
+
+    <div class="bank-card">
+        <p><strong>Bank Name:</strong> ECO Bank</p>
+        <p><strong>Account Name:</strong> Ladidi Baba Foundation</p>
+
+        <hr>
+
+        <div class="account-row">
+            <span><strong>Euro:</strong> 018071828</span>
+            <button onclick="copyText('018071828')">Copy</button>
+        </div>
+
+        <div class="account-row">
+            <span><strong>Pounds:</strong> 0180071770</span>
+            <button onclick="copyText('0180071770')">Copy</button>
+        </div>
+
+        <div class="account-row">
+            <span><strong>Dollar:</strong> 0180071749</span>
+            <button onclick="copyText('0180071749')">Copy</button>
+        </div>
+
+        <p class="swift-note">
+            For international transfers, please contact us for SWIFT/BIC details.
+        </p>
+    </div>
+
+    <a href="https://wa.me/2348033114659" target="_blank" class="whatsapp-btn">
+        I Have Donated ✔
+    </a>
+</section>
+
+<section class="trust-section">
+    <p>✔ Transparent Operations</p>
+    <p>✔ Community Verified Impact</p>
+    <p>✔ Empowering Women & Youth Since 2015</p>
+</section>
+
+<script>
+function copyText(text) {
+    navigator.clipboard.writeText(text);
+    alert("Account number copied!");
+}
+</script>
+
+
+</body>
+</html>
+
